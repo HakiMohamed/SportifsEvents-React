@@ -27,6 +27,7 @@ const ManageParticipants: React.FC<ManageParticipantsProps> = ({
     try {
       if (currentParticipants.length >= maxParticipants) {
         toast.error('Event has reached maximum capacity');
+        console.error('Event has reached maximum capacity');
         return;
       }
 

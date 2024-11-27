@@ -14,5 +14,6 @@ export const signinSchema = z.object({
   password: z.string().min(1, { message: "Password is required" })
 });
 
+
 export type SignupFormData = z.infer<typeof signupSchema>;
 export type SigninFormData = z.infer<typeof signinSchema>;

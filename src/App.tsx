@@ -17,6 +17,7 @@ import EventsList from './pages/EventsList';
 import EventForm from './pages/EventForm';
 import EventDetails from './pages/EventDetails'; // New import
 
+
 // Import authentication context and guards
 import { AuthProvider } from './context/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
@@ -121,6 +122,7 @@ const App: React.FC = () => {
       </AuthProvider>
     </Router>
   );
+  
 };
 
 export default App;

@@ -52,9 +52,11 @@ const Dashboard: React.FC = () => {
     try {
       await EventsApi.downloadParticipantReport(eventId);
       toast.success('Report downloaded successfully', {
-        position: "top-right",
-        theme: "colored"
+        position: 'top-right',
+        theme: 'colored'
+        
       });
+      console.log('Report downloaded successfully');
     } catch (error) {
       toast.error('Failed to download report', {
         position: "top-right",
