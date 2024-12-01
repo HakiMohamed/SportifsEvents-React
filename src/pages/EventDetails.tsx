@@ -4,8 +4,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import EventsApi, { Event } from '../services/eventsApi';
 import { toast } from 'react-toastify';
 import { formatDate } from '../utils/dateUtils';
-import ManageParticipants from './ManageParticipants';
 import { motion, AnimatePresence } from 'framer-motion';
+import ManageParticipants from './ManageParticipants';
 
 const EventDetails: React.FC = () => {
   const [event, setEvent] = useState<Event | null>(null);
