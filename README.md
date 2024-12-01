@@ -60,7 +60,7 @@ src/
 ├── utils/
 ├── types/
 └── assets/
-    
+
 ```
 
 ## Getting Started
@@ -172,6 +172,6 @@ export const EventProvider: React.FC<PropsWithChildren> = ({ children }) => {
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Your Name - Mohamedhaki70@gmail.com
+Mohamed Haki - Mohamedhaki70@gmail.com
 
 Project Link: [https://github.com/HakiMohamed/SportifsEvents-React](https://github.com/HakiMohamed/SportifsEvents-React)
