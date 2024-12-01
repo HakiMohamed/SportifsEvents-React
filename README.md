@@ -55,15 +55,12 @@ SportifsEvents-React is a web application designed to manage and organize sports
 ```
 src/
 ├── components/
-│   ├── common/
-│   ├── layout/
-│   └── features/
 ├── pages/
-├── hooks/
 ├── services/
 ├── utils/
 ├── types/
 └── assets/
+    
 ```
 
 ## Getting Started
@@ -89,7 +86,6 @@ npm install
 Create a `.env` file in the project root with the following:
 ```env
 VITE_API_URL=your_api_url
-VITE_API_KEY=your_api_key
 ```
 
 4. Start the development server
@@ -114,7 +110,6 @@ npm run dev
 Update the `.env` file with production credentials:
 ```env
 VITE_API_URL=production_api_url
-VITE_API_KEY=production_api_key
 ```
 
 ## Project Structure
@@ -122,7 +117,6 @@ VITE_API_KEY=production_api_key
 ### Key Components
 - `components/`: Reusable UI components
 - `pages/`: Route-specific page components
-- `hooks/`: Custom React hooks
 - `services/`: API interaction logic
 - `utils/`: Utility functions
 - `types/`: TypeScript type definitions
@@ -148,7 +142,7 @@ const EventCard: React.FC<EventCardProps> = ({
   description,
   image
 }) => {
-  // Component implementation
+  
 };
 ```
 
@@ -175,9 +169,9 @@ export const EventProvider: React.FC<PropsWithChildren> = ({ children }) => {
 5. Open a Pull Request
 
 ## License
-Specify your project's license here (e.g., MIT, Apache 2.0)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Your Name - your.email@example.com
+Your Name - Mohamedhaki70@gmail.com
 
 Project Link: [https://github.com/HakiMohamed/SportifsEvents-React](https://github.com/HakiMohamed/SportifsEvents-React)
